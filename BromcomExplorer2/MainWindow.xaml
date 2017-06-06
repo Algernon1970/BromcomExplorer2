@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button Content="Button" HorizontalAlignment="Right" Height="16.667" Margin="0,24.667,10,0" VerticalAlignment="Top" Width="48.668" RenderTransformOrigin="0.505,0.486"/>
+        <ComboBox x:Name="AvailableTablesBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+
     </Grid>
 </Window>
