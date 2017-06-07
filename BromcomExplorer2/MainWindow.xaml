@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BromcomExplorer2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="981.863" Loaded="Window_Loaded">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Right" Height="16.667" Margin="0,24.667,10,0" VerticalAlignment="Top" Width="48.668" RenderTransformOrigin="0.505,0.486"/>
-        <ComboBox x:Name="AvailableTablesBox" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="AvailableTablesBox" HorizontalAlignment="Left" Margin="85,10,0,0" VerticalAlignment="Top" Width="143"/>
+        <ComboBox x:Name="fieldNameBox" HorizontalAlignment="Left" Margin="346,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="label" Content="TableName" HorizontalAlignment="Left" Margin="10,6,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.671,5.321"/>
+        <Label x:Name="label1" Content="FieldName" HorizontalAlignment="Left" Margin="274,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="addFieldButton" Content="Add Field" HorizontalAlignment="Left" Margin="471,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="queryTextBox" HorizontalAlignment="Left" Height="23" Margin="94,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="870"/>
+        <Button x:Name="queryButton" Content="Query" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="75"/>
+        <DataGrid x:Name="tableOutput" HorizontalAlignment="Left" Margin="10,69,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
